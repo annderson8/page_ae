@@ -11583,3 +11583,22 @@ footer.footer .social-link:hover {
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important;
 }
+
+.about table {
+  width: 100%;
+  border: solid black 1px;
+}
+.about .left {
+  text-align: left;
+}
+.about .center {
+  text-align: center;
+}
+.about td {
+  border: solid black 1px;
+  padding: 1em 0 1em 0.5em;
+}
+.about th {
+  border: solid black 1px;
+  padding: 1em 0 1em 0;
+}
