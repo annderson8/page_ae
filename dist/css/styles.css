@@ -11339,7 +11339,7 @@ html {
   height: 100%;
   transition: all 0.4s ease 0s;
   transform: translateX(250px);
-  background: #1D809F;
+  background: #ecb807;
   border-left: 1px solid rgba(255, 255, 255, 0.1);
 }
 
@@ -11444,12 +11444,12 @@ footer.footer .social-link {
   width: 4rem;
   line-height: 4.3rem;
   font-size: 1.5rem;
-  background-color: #1D809F;
+  background-color: #ecb807;
   transition: background-color 0.15s ease-in-out;
   box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
 }
 footer.footer .social-link:hover {
-  background-color: #155d74;
+  background-color: #ba9106;
   text-decoration: none;
 }
 
@@ -11476,7 +11476,7 @@ footer.footer .social-link:hover {
   height: auto;
   padding-top: 8rem;
   padding-bottom: 8rem;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../assets/img/bg-masthead.jpg");
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -11485,6 +11485,10 @@ footer.footer .social-link:hover {
   font-size: 4rem;
   margin: 0;
   padding: 0;
+}
+.masthead .img-fluid-logo {
+  max-width: 40%;
+  height: auto;
 }
 @media (min-width: 992px) {
   .masthead {
@@ -11562,11 +11566,20 @@ footer.footer .social-link:hover {
 
 .service-icon {
   background-color: #fff;
-  color: #1D809F;
+  color: rgba(var(--bs-primary-rgb));
   height: 7rem;
   width: 7rem;
   display: block;
   line-height: 7.5rem;
   font-size: 2.25rem;
   box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+}
+
+:root {
+  --bs-primary-rgb: 150, 11, 31;
+}
+
+.bg-primary {
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important;
 }
