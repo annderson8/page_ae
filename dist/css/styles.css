@@ -11602,3 +11602,7 @@ footer.footer .social-link:hover {
   border: solid black 1px;
   padding: 1em 0 1em 0;
 }
+.about #numero {
+  font-size: 10em;
+  font-weight: 900;
+}

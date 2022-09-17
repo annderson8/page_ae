@@ -73,3 +73,15 @@ function fadeIn(el, display) {
         }
     })();
 };
+
+
+const numero=document.getElementById('numero')
+
+let cantidad=0
+let tiempo=setInterval(() => {
+    cantidad+=1
+    numero.textContent=cantidad
+    if(cantidad===587){
+        clearInterval(tiempo)
+    }
+}, 0.5);

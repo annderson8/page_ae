@@ -52,17 +52,21 @@ html(lang='en')
                 a.btn.btn-secondary.btn-xl(href='#about') Saber más
 
         // About
-        section#about.content-section.bg-light
+        section#about.about.content-section.bg-light
             .container.px-4.px-lg-5.text-center
+                .content-section-heading
+                    h2.mb-5 Nosotros
+                    p.lead.mb-5 Somos un equipo de profesionales con una amplia experiencia en asesoramiento y acompañamiento en los trámites de homologaciones y convalidaciones de títulos profesionales en España.
                 .row.gx-4.gx-lg-5.justify-content-center
-                    .col-lg-10
-                        h2 Nosotros
-                        p.lead.mb-5 Somos un equipo de profesionales con una amplia experiencia en asesoramiento y acompañamiento en los trámites de homologaciones y convalidaciones de títulos profesionales en España.
-                        strong Objetivo
+                    .col-lg-6.col-md-6.mb-5.mb-lg-0
+                        h3 Objetivo
                         p.lead.mb-5 Dirigir tu profesión al viejo continente a través de una excelente praxis.
-                        strong Valores
+                    .col-lg-6.col-md-6.mb-5.mb-lg-0
+                        h3 Valores
                         p.lead.mb-5 Responsabilidad, confianza, honestidad y compromiso.
-                        a.btn.btn-secondary.btn-xl(href='#services') Servicios
+                    h2 Trámites gestionados
+                    p#numero 587
+                a.btn.btn-secondary.btn-xl(href='#services') Servicios
 
         // Services
         section#services.content-section.bg-primary.text-white.text-center
@@ -100,12 +104,12 @@ html(lang='en')
                     .col-lg-10
                         h2 Contacto
                         p.lead.mb-5 Escríbenos para recibir asesoria completa
-                        a.btn.btn-xl.btn-dark(href='https://wa.me/+573212215187')
-                            i.fa-brands.fa-whatsapp
-                            span +57 321 221 5187
                         a.btn.btn-xl.btn-dark(href='https://wa.me/+573212216436')
                             i.fa-brands.fa-whatsapp
                             span +57 321 221 6436
+                        a.btn.btn-xl.btn-dark(href='https://wa.me/+573212215187')
+                            i.fa-brands.fa-whatsapp
+                            span +57 321 221 5187
 
         // Footer
         footer.footer.text-center
