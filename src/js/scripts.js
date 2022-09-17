@@ -84,4 +84,4 @@ let tiempo=setInterval(() => {
     if(cantidad===587){
         clearInterval(tiempo)
     }
-}, 0.5);
+}, 0.1);
