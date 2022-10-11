@@ -81,7 +81,7 @@ let cantidad=0
 let tiempo=setInterval(() => {
     cantidad+=1
     numero.textContent=cantidad
-    if(cantidad===587){
+    if(cantidad===602){
         clearInterval(tiempo)
     }
 }, 0.1);
